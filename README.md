@@ -30,7 +30,7 @@ The function should return a dictionary with the following keys:
 * Timestamps will be positive integers.
 * You can assume that the input will not contain malformed messages.
 * Message with the same SessionID belong the the same charging session
-* It is possible for messages with later timestamp arrives at AmpUp backend later than messages with earlier timestamp
+* It is possible for messages with later timestamp arrives at backend later than messages with earlier timestamp
 * A normal session should generate messages `SessionStart`, `StatusCharging` and `SessionStop` in chronological order, at least they should generate `SessionStart` and `SessionStop` message for one charging session. Otherwise, they are considered bad sessions
 
 ### Built With
