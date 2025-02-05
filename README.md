@@ -42,7 +42,7 @@ The function should return a dictionary with the following keys:
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/HaiBV/ampup.git
+   git clone https://github.com/HaiBV/handle-messages.git
    ```
 
 2. Install NPM packages

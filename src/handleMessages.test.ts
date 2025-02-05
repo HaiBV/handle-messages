@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { handleMessages } from "./ampup";
+import { handleMessages } from "./handleMessages";
 
 describe("test handle messages", () => {
   test("at least 1 message", () => {
